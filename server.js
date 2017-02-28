@@ -3,6 +3,10 @@ const app = require('express')()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
+var bodyParser = require('body-parser')
+
+app.use(bodyParser.json()); // for parsing application/json
+
 app.set('port', port)
 // Import API Routes
 app.use('/api', require('./api/index'))
