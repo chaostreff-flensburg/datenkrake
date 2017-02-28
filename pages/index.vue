@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import axios from '~plugins/axios'
+
 export default {
   methods: {
     signup: function() {
