@@ -1,16 +1,13 @@
 <template>
   <section class="container">
-    <img src="../assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
-    <h1 class="title">
-      USERS
-    </h1>
-    <ul class="users">
-      <li v-for="(user, index) in users" class="user">
-        <nuxt-link :to="{ name: 'id', params: { id: index }}">
-          {{ user.name }}
-        </nuxt-link>
-      </li>
-    </ul>
+    <h2>Eventname</h2>
+    <p>Event Description</p>
+    <form class="registration" action="/api/registration" method="post">
+      <input type="text" name="name" placeholder="Name / @Nickname">
+      <input type="mail" name="email" value="" placeholder="mail@example.com">
+      <textarea name="description" rows="8" cols="80" placeholder="Description"></textarea>
+      <button type="submit" name="submit">Submit</button>
+    </form>
   </section>
 </template>
 
@@ -33,18 +30,11 @@ export default {
 </script>
 
 <style scoped>
-.title
-{
-  margin: 30px 0;
-}
-.users
-{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.user
-{
-  margin: 10px 0;
+.registration {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
