@@ -1,7 +1,8 @@
 var router = require('express').Router()
 
-/* GET user by ID. */
-router.get('/event/signup', function (req, res, next) {
+
+
+router.post('/event/signup', function (req, res, next) {
   res.json(req.body);
 })
 
