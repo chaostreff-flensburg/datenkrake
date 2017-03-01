@@ -4,8 +4,11 @@ const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
 var bodyParser = require('body-parser')
+var options = {
+  strict: false
+};
 
-app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.json(options)); // for parsing application/json
 
 app.set('port', port)
 // Import API Routes
