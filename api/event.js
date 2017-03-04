@@ -33,6 +33,7 @@ function signupMail(userId, userMail, userName) {
     text: 'Hey ' + userName + '! Click here to confirm your signup: http://' + config.host + '/api/event/confirm/' + userId
   };
   transporter.sendMail(message)
+  console.log('Signup mail sent!');
 }
 
 function confirmationMail(userId, userMail, userName) {
@@ -43,6 +44,7 @@ function confirmationMail(userId, userMail, userName) {
     text: 'Hey ' + userName + '! You are now registered for ' + config.event.name + '!'
   };
   transporter.sendMail(message)
+  console.log('Confirmation mail sent!');
 }
 
 
