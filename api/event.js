@@ -13,7 +13,6 @@ router.post('/event/signup', function (req, res, next) {
 })
 
 router.post('/event/submit', function (req, res, next) {
-  console.log(req.body);
   var user = req.body
   user.confirmed = false
   db.insert(user, function(err, newUser) {
