@@ -18,7 +18,9 @@ router.post('/event/signup', function (req, res, next) {
 })
 
 router.get('/event/confirm/:id', function(req, res, next) {
-  db.update({_id: req.params.id}, {$set: {confirmed: true}}, {}, function() {
+  db.update({_id: req.params.id}, {$set: {confirmed: true}}, {returnUpdatedDocs: true}, function(err, numAffected, affectedDocuments, upsert) {
+    var user = affectedDocuments
+    confirmationMail(user._id, user.mail, user.name)
   })
 })
 
@@ -32,5 +34,16 @@ function signupMail(userId, userMail, userName) {
   };
   transporter.sendMail(message)
 }
+
+function confirmationMail(userId, userMail, userName) {
+  var message = {
+    from: mail.auth.user,
+    to: userMail,
+    subject: 'Confirm your signup for ' + config.event.name,
+    text: 'Hey ' + userName + '! You are now registered for ' + config.event.name + '!'
+  };
+  transporter.sendMail(message)
+}
+
 
 module.exports = router
