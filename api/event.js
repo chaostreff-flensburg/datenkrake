@@ -14,6 +14,7 @@ router.post('/event/signup', function (req, res, next) {
   user.confirmed = false
   db.insert(user, function(err, newUser) {
     signupMail(newUser._id, newUser.mail, newUser.name)
+    res.status(200).end()
   })
 })
 
