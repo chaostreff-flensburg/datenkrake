@@ -1,0 +1,12 @@
+{
+  "host": "mailserver@example.com",
+  "port": 587,
+  "secure": false,
+  "auth": {
+      "user": "mail@example.com",
+      "pass": "SuperPasswort123"
+  },
+  "tls": {
+      "rejectUnauthorized": false
+  }
+}

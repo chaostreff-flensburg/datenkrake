@@ -1,0 +1,6 @@
+{
+  "host": "events.example.com",
+  "event": {
+    "name": "My cool Event"
+  }
+}
