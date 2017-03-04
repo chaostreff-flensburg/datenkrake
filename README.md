@@ -1,6 +1,6 @@
 # datenkrake
 
-> all your event-relevent data belongs to us
+> All your event data are belong to us!
 
 ## Build Setup
 

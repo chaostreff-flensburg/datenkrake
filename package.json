@@ -1,7 +1,7 @@
 {
   "name": "datenkrake",
   "version": "1.0.0",
-  "description": "all your data belongs to us",
+  "description": "All your event data are belong to us!",
   "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
   "private": true,
   "scripts": {
