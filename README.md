@@ -7,11 +7,14 @@
 ``` bash
 # install dependencies
 $ npm install # Or yarn install
+```
+Meanwhile, create a mail.config.json and a config.json, based on the sample files. After that:
 
+```bash
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# or build for production and launch server
 $ npm start
 
 ```
