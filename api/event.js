@@ -4,7 +4,7 @@ var nodemailer = require('nodemailer')
 
 var mail = require(__dirname + '/../mail.config.json')
 var config = require(__dirname + '/../config.json')
-var db = new Datastore({ filename: __dirname + '/../db/event', autoload: true })
+var db = new Datastore({ filename: __dirname + '/../db/event', autoload: true, timestampData: true })
 
 let transporter = nodemailer.createTransport(mail);
 
