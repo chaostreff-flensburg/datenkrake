@@ -151,10 +151,11 @@ small {
 
 .container
 {
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  z-index: 15;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  text-align: center !important;
+  z-index: 15 !important;
 }
 
 .button, .button:visited
