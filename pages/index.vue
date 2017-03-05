@@ -1,11 +1,15 @@
 <template>
   <section class="container">
-    <p>Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a>.</p>
     <div class="registration">
+      <h3>Name:</h3>
       <input type="text" name="name" required="true" v-model="user.name" placeholder="Name / @Nickname">
+      <h3>Mailadresse:</h3>
       <input type="mail" name="email" required="true" v-model="user.mail" placeholder="mail@example.com">
+      <h3>Dein Projekt:</h3>
       <textarea name="description" rows="2" cols="80" required="true" v-model="user.desc" placeholder="Description"></textarea>
-      <button v-on:click="signup" name="submit">Submit</button>
+      <div class="submit">
+        <button v-on:click="signup" name="submit">Anmelden</button>
+      </div>
     </div>
   </section>
 </template>
@@ -51,4 +55,19 @@ export default {
   margin-right: auto;
 }
 
+input {
+  padding: 0.75em;
+  border-radius: 2px;
+  border-style: none;
+}
+textarea {
+  resize: vertical;
+}
+.submit {
+  text-align: right;
+}
+button {
+  padding: 0.75em;
+  margin-top: 0.5em;
+}
 </style>

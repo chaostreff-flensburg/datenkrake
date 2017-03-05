@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { href:"https://fonts.googleapis.com/css?family=Amatica+SC:400,700", rel:"stylesheet"},
+      { href:"https://fonts.googleapis.com/css?family=Arvo:400,700", rel:"stylesheet"},
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },

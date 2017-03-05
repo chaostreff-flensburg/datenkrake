@@ -1,7 +1,25 @@
 <template>
   <div class="main">
     <img src="../assets/img/hackend-logo.svg" alt="" class="logo">
+    <div class="description">
+      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03 & 01.04.</p>
+    </div>
     <nuxt/>
+    <h2 class="infotitle">Weitere Infos</h2>
+    <div class="description more">
+      <p>
+        <strong>Das Event:</strong><br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+        <strong>Die Location:</strong><br>
+        <iframe width="620" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=9.440989494323732%2C54.761048546252%2C9.453756809234621%2C54.76582106825622&amp;layer=mapnik&amp;marker=54.76343178258027%2C9.447373151779175" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.76343&amp;mlon=9.44737#map=17/54.76343/9.44737">Größere Karte anzeigen</a></small><br>
+        <br>
+        <strong>Eure Projekte & Sessionideen:</strong>
+        <iframe name="embed_readwrite" src="https://etherpad.net/p/U22xPsL6rJ?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width=600 height=400></iframe><br> <br>
+        Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a> und der <a href="http://codingworld.io">Coding World UG (haftungsbeschränkt)</a>.
+        <br>
+        <a href="http://chaostreff-flensburg.de/impressum/">Impressum</a>
+      </p>
+    </div>
     <img src="../assets/img/funkturm.svg" alt="" class="funkturm">
     <img src="../assets/img/overlay.svg" alt="" class="overlay">
   </div>
@@ -19,6 +37,8 @@ html, body {
   background-position: center;
   background-size: 120%;
   background-repeat: no-repeat;
+  font-family: "Arvo", monospace !important;
+  text-shadow: none;
 }
 @media (max-width: 800px) {
   html, body {
@@ -32,19 +52,64 @@ html, body {
 }
 
 p, div, span {
-  color: #d9e1e8;
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  color: #282c37;
 }
 
-a, em, b {
+h1, h2, h3, h4, h5, h6 {
+  color: #d9e1e8;
+  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.25em;
+  margin-top: 0.5em;
+  text-align: left;
+  z-index: 15;
+}
+
+.description p {
+  background-image: url("../assets/img/overlay.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 4em;
+  padding: 0.75em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.875em;
+  text-align: center;
+}
+.more p {
+  padding: 2.25em;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 780px;
+}
+.description {
+  z-index: 25;
+}
+
+.infotitle {
+  margin-top: 2em;
+}
+
+a, em, strong {
   color: #cd334d;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  font-style: normal;
+}
+iframe {
+  margin-top: 1.5em;
+}
+small {
+  font-size: 0.75em;
 }
 
 .logo {
-  max-width: 520px;
+  max-width: 480px;
   height: auto;
   margin-top: 4em;
   z-index: 0;
@@ -74,9 +139,7 @@ a, em, b {
 {
   margin: 0;
   width: 100%;
-  padding: 100px 0;
   text-align: center;
-  margin-top: -2em;
   z-index: 15;
 }
 
