@@ -9,6 +9,8 @@ var db = new Datastore({ filename: __dirname + '/../db/event', autoload: true, t
 let transporter = nodemailer.createTransport(mail);
 
 
+// routes
+
 router.post('/event/signup', function (req, res, next) {
   var user = req.body
   user.confirmed = false
@@ -26,6 +28,8 @@ router.get('/event/confirm/:id', function(req, res, next) {
   })
 })
 
+
+// helper functions
 
 function signupMail(userId, userMail, userName) {
   var message = {
