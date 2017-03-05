@@ -2,6 +2,9 @@
 
 > All your event data are belong to us!
 
+![](/doc/img/weekendhack-theme.png)
+###### datenkrake with weekendHACK-Theme
+
 ## Build Setup
 
 ``` bash
