@@ -18,6 +18,7 @@ Meanwhile, create a `mail.config.json` and a `config.json`, based on the sample 
 $ npm run dev
 
 # or build for production and launch server
+$ npm run build
 $ npm start
 
 ```
