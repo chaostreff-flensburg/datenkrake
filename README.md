@@ -11,7 +11,7 @@
 # install dependencies
 $ npm install # Or yarn install
 ```
-Meanwhile, create a mail.config.json and a config.json, based on the sample files. After that:
+Meanwhile, create a `mail.config.json` and a `config.json`, based on the sample files. After that:
 
 ```bash
 # serve with hot reload at localhost:3000
@@ -21,5 +21,7 @@ $ npm run dev
 $ npm start
 
 ```
+
+Secure the `/admin` and `/api/event/users` routes via your web server.
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
