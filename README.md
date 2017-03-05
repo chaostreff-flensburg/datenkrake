@@ -23,6 +23,6 @@ $ npm start
 
 ```
 
-Secure the `/admin` and `/api/event/users` routes via your web server.
+__Secure the `/admin` and `/api/event/users` routes via your web server.__
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
