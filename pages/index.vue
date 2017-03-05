@@ -6,7 +6,7 @@
       <h3>Mailadresse:</h3>
       <input type="mail" name="email" required="true" v-model="user.mail" placeholder="mail@example.com">
       <h3>Dein Projekt:</h3>
-      <textarea name="description" rows="2" cols="80" required="true" v-model="user.desc" placeholder="Description"></textarea>
+      <textarea name="description" rows="2" cols="80" required="true" v-model="user.desc" placeholder="Hast du schon ein Projekt an dem du arbeiten möchtest, oder eine Session die du veranstalten möchtest? Vergiss nicht diese auch im Pad weiter unten einzutragen."></textarea>
       <div class="submit">
         <button v-on:click="signup" name="submit">Anmelden</button>
       </div>

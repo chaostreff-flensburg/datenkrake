@@ -9,7 +9,7 @@
     <div class="description more">
       <p>
         <strong>Das Event:</strong><br> <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+        Der Chaostreff Flensburg lädt ein zum weekend<strong>HACK</strong> im Technologiezentrum! Also packt Laptop, Bastelkram und DIY-Projekte jedweder Art ein, um mit anderen Häckern und Häcksen einen Tag (und Nacht) lang im Mate-Rausch den Lötkolben zu schwingen, die Tastatur zum Klappern und die Synapsen zum feuern zu bringen! <br> <br>
         <strong>Die Location:</strong><br>
         <iframe width="620" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=9.440989494323732%2C54.761048546252%2C9.453756809234621%2C54.76582106825622&amp;layer=mapnik&amp;marker=54.76343178258027%2C9.447373151779175" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.76343&amp;mlon=9.44737#map=17/54.76343/9.44737">Größere Karte anzeigen</a></small><br>
         <br>
