@@ -22,7 +22,7 @@ router.get('/event/confirm/:id', function(req, res, next) {
   db.update({_id: req.params.id}, {$set: {confirmed: true}}, {returnUpdatedDocs: true}, function(err, numAffected, affectedDocuments, upsert) {
     var user = affectedDocuments
     confirmationMail(user._id, user.mail, user.name)
-    res.redirect('/')
+    res.redirect('/confirmed')
   })
 })
 
