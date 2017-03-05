@@ -28,6 +28,19 @@ router.get('/event/confirm/:id', function(req, res, next) {
   })
 })
 
+router.get('/event/users/confirmed', function(req, res, next) {
+  console.log(req.params);
+  db.find({confirmed:true}, function(err, docs) {
+    res.send(docs)
+  })
+})
+
+router.get('/event/users/unconfirmed', function(req, res, next) {
+  db.find({confirmed:false}, function(err, docs) {
+    res.send(docs)
+  })
+})
+
 
 // helper functions
 

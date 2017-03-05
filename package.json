@@ -23,6 +23,7 @@
     "cross-env": "^3.1.4",
     "email-validator": "^1.0.7",
     "express": "^4.14.0",
+    "lodash": "^4.17.4",
     "nedb": "^1.8.0",
     "nodemailer": "^3.1.4",
     "nuxt": "latest"
