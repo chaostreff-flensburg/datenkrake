@@ -52,6 +52,12 @@ html, body {
   .overlay {
     display: none;
   }
+  iframe {
+    max-width: 80vw;
+  }
+  .funkturm {
+    max-width: 80vw;
+  }
 }
 
 p, div, span {
