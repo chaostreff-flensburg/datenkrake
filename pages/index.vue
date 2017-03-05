@@ -16,6 +16,7 @@
 
 <script>
 import axios from '~plugins/axios'
+import mailValidator from "email-validator"
 
 export default {
   layout: 'weekendhack',
@@ -30,17 +31,22 @@ export default {
   },
   methods: {
     signup: function() {
-      axios.post('/api/event/signup', {
-        name: this.user.name,
-        mail: this.user.mail,
-        desc: this.user.desc
-      })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
+      if (this.user.name !== '' && this.user.desc !== '' && mailValidator.validate(this.user.mail)) {
+        axios.post('/api/event/signup', {
+          name: this.user.name,
+          mail: this.user.mail,
+          desc: this.user.desc
+        })
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        })
+      }
+      else {
+        alert('Bitte fülle alle Felder aus um dich anzumelden.')
+      }
     }
   }
 }
