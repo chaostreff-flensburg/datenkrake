@@ -29,26 +29,15 @@ router.get('/event/confirm/:id', function(req, res, next) {
 })
 
 router.get('/event/users/confirmed', function(req, res, next) {
-  //console.log(req.headers)
-  if (req.headers.referer == ('http://' + req.headers.host + '/admin') || req.headers.referer == ('https://' + req.headers.host + '/admin')) {
-    db.find({confirmed:true}, function(err, docs) {
-      res.send(docs)
-    })
-  }
-  else {
-    res.status(404).end();
-  }
+  db.find({confirmed:true}, function(err, docs) {
+    res.send(docs)
+  })
 })
 
 router.get('/event/users/unconfirmed', function(req, res, next) {
-  if (req.headers.referer == ('http://' + req.headers.host + '/admin') || req.headers.referer == ('https://' + req.headers.host + '/admin')) {
-    db.find({confirmed:false}, function(err, docs) {
-      res.send(docs)
-    })
-  }
-  else {
-    res.status(404).end();
-  }
+  db.find({confirmed:false}, function(err, docs) {
+    res.send(docs)
+  })
 })
 
 
