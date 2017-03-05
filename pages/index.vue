@@ -58,7 +58,6 @@ export default {
 input {
   padding: 0.75em;
   border-radius: 2px;
-  border-style: none;
 }
 textarea {
   resize: vertical;

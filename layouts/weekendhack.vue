@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   z-index: 15;
 }
+input, textarea {
+  padding: 0.75em;
+  border-radius: 2px;
+  border-style: none;
+}
 
 .description p {
   background-image: url("../assets/img/overlay.svg");
