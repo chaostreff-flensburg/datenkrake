@@ -15,3 +15,5 @@ db
 # config files
 mail.config.json
 config.json
+
+Caddyfile
