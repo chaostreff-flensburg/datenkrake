@@ -49,6 +49,9 @@ html, body {
   html, body {
     background-size: 200%;
   }
+  .overlay {
+    display: none;
+  }
 }
 
 p, div, span {
