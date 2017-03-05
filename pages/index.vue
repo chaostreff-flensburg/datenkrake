@@ -2,9 +2,9 @@
   <section class="container">
     <p>Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a>.</p>
     <div class="registration">
-      <input type="text" name="name" v-model="user.name" placeholder="Name / @Nickname">
-      <input type="mail" name="email" v-model="user.mail" placeholder="mail@example.com">
-      <textarea name="description" rows="2" cols="80" v-model="user.desc" placeholder="Description"></textarea>
+      <input type="text" name="name" required="true" v-model="user.name" placeholder="Name / @Nickname">
+      <input type="mail" name="email" required="true" v-model="user.mail" placeholder="mail@example.com">
+      <textarea name="description" rows="2" cols="80" required="true" v-model="user.desc" placeholder="Description"></textarea>
       <button v-on:click="signup" name="submit">Submit</button>
     </div>
   </section>

@@ -39,7 +39,7 @@ p, div, span {
 a, em, b {
   color: #cd334d;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
