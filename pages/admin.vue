@@ -92,6 +92,7 @@ export default {
 table {
     border-collapse: collapse;
     max-width: 1200px;
+    background-color: white;
 }
 
 th, td {
