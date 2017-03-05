@@ -1,11 +1,10 @@
 <template>
   <section class="container">
-    <h2>Eventname</h2>
-    <p>Event Description</p>
+    <p>Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a>.</p>
     <div class="registration">
       <input type="text" name="name" v-model="user.name" placeholder="Name / @Nickname">
       <input type="mail" name="email" v-model="user.mail" placeholder="mail@example.com">
-      <textarea name="description" rows="8" cols="80" v-model="user.desc" placeholder="Description"></textarea>
+      <textarea name="description" rows="2" cols="80" v-model="user.desc" placeholder="Description"></textarea>
       <button v-on:click="signup" name="submit">Submit</button>
     </div>
   </section>
@@ -15,6 +14,7 @@
 import axios from '~plugins/axios'
 
 export default {
+  layout: 'weekendhack',
   data: function() {
     return {
       user: {
@@ -50,4 +50,5 @@ export default {
   margin-left: auto;
   margin-right: auto;
 }
+
 </style>
