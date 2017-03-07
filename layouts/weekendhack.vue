@@ -2,14 +2,29 @@
   <div class="main">
     <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <div class="description">
-      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03. &amp; 01.04.</p>
+      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03 & 01.04.2017 In der Lise-Meitner-Str. 2, 24941 Flensburg.</p>
     </div>
     <nuxt/>
     <h2 class="infotitle">Weitere Infos</h2>
     <div class="description more">
       <p>
         <strong>Das Event:</strong><br><br>
-        Der Chaostreff Flensburg lädt ein zum weekend<strong>HACK</strong> im Technologiezentrum! Also packt Laptop, Bastelkram und DIY-Projekte jedweder Art ein, um mit anderen Hackern und Häcksen einen Tag (und Nacht) lang im Mate-Rausch den Lötkolben zu schwingen, die Tastatur zum Klappern und die Synapsen zum Feuern zu bringen!<br><br>
+        Wir laden alle Hacker und IT-Interessierte ein in lockerer Umgebung an Ihrem Projekt zu arbeiten. Bringe ein Projekt mit oder schließe dich einem Projekt an. Austausch, Mate, fachsimpeln - endlich  mal was fertig machen.<br>
+        Abgesehen von einigen Ankerpunkten gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wie Ihr wollt, es ist von Freitag 17:00 Uhr bis Samstag 23:00 Uhr geöffnet. <br>
+        Um Verpflegung kümmert sich jeder selbst, nur zum Frühstück am Samstag lädt der Chaostreff Flensburg ein. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/ LAN, und Strom sind vorhanden. Hardware bringt ihr selbst mit. Denkt bitte auch an ein LAN-Kabel + Verteilersteckdose.<br>
+        Wir freuen uns auf euch.
+        <br> <br>
+        <strong>Ablaufplan</strong><br>
+        Start Freitag 17:00 Uhr<br>
+        18:00 Uhr, Willkommen und Vorstellungsrunde<br>
+        20:00 Uhr gemeinsames Abendessen, wir plündern die Lieferdienste<br>
+        21:00 - 00:00 Uhr Arduino Workshop mit Samuel<br>
+        <br>
+        Samstag:<br>
+        10:00 - 12:00 Gemeinsames Frühstück<br>
+        13:00 - 14:00 Workshop, Diskussion 3D Druck - Fluch oder Segen?<br>
+        18:00 Uhr - 20:00 Uhr Abendessen, wir plündern gemeinsam die Lieferdienste<br>
+        23:00 Uhr Ende<br>
         <br>
         Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a> und der <a href="http://codingworld.io">Coding World UG (haftungsbeschränkt)</a>.
         <br>
@@ -86,7 +101,7 @@ input, textarea {
   margin-left: auto;
   margin-right: auto;
   font-size: 0.875em;
-  text-align: center;
+  text-align: left;
 }
 .more p {
   padding: 2.25em;
