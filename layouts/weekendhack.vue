@@ -1,20 +1,20 @@
 <template>
   <div class="main">
-    <img src="../assets/img/hackend-logo.svg" alt="" class="logo">
+    <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <div class="description">
-      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03 & 01.04.</p>
+      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03. & 01.04.</p>
     </div>
     <nuxt/>
     <h2 class="infotitle">Weitere Infos</h2>
     <div class="description more">
       <p>
         <strong>Das Event:</strong><br> <br>
-        Der Chaostreff Flensburg lädt ein zum weekend<strong>HACK</strong> im Technologiezentrum! Also packt Laptop, Bastelkram und DIY-Projekte jedweder Art ein, um mit anderen Häckern und Häcksen einen Tag (und Nacht) lang im Mate-Rausch den Lötkolben zu schwingen, die Tastatur zum Klappern und die Synapsen zum feuern zu bringen! <br> <br>
+        Der Chaostreff Flensburg lädt ein zum weekend<strong>HACK</strong> im Technologiezentrum! Also packt Laptop, Bastelkram und DIY-Projekte jedweder Art ein, um mit anderen Hackern und Häcksen einen Tag (und Nacht) lang im Mate-Rausch den Lötkolben zu schwingen, die Tastatur zum Klappern und die Synapsen zum Feuern zu bringen! <br> <br>
         <strong>Die Location:</strong><br>
         <iframe width="620" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=9.440989494323732%2C54.761048546252%2C9.453756809234621%2C54.76582106825622&amp;layer=mapnik&amp;marker=54.76343178258027%2C9.447373151779175" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.76343&amp;mlon=9.44737#map=17/54.76343/9.44737">Größere Karte anzeigen</a></small><br>
         <br>
         <strong>Eure Projekte & Sessionideen:</strong>
-        <iframe name="embed_readwrite" src="https://pad.ctfl.space/p/weekendhack0-sessions?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width=600 height=400></iframe><br> <br>
+        <iframe name="embed_readwrite" src="https://pad.ctfl.space/p/weekendhack0-sessions?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width=600 height=400></iframe><br><br>
         Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a> und der <a href="http://codingworld.io">Coding World UG (haftungsbeschränkt)</a>.
         <br>
         <a href="http://chaostreff-flensburg.de/impressum/">Impressum</a>
