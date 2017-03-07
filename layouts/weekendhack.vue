@@ -2,7 +2,7 @@
   <div class="main">
     <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <div class="description">
-      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03. & 01.04.</p>
+      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03. &amp; 01.04.</p>
     </div>
     <nuxt/>
     <h2 class="infotitle">Weitere Infos</h2>
