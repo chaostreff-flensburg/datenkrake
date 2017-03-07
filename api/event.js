@@ -47,8 +47,8 @@ function signupMail(userId, userMail, userName) {
   var message = {
     from: mail.auth.user,
     to: userMail,
-    subject: 'Confirm your signup for ' + config.event.name,
-    text: 'Hey ' + userName + '! Click here to confirm your signup: http://' + config.host + '/api/event/confirm/' + userId
+    subject: 'Bestätige deine Teilnahme am ' + config.event.name,
+    text: 'Hallo ' + userName + '! Bitte klicke hier um deine Teilnahme zu bestätigen: https://' + config.host + '/api/event/confirm/' + userId + ' Wenn du Fragen hast oder deine Teilnahme absagen möchtest, antworte einfach auf diese Mail. Nordische Grüße, dein Chaostreff Flensburg e.V.'
   };
   transporter.sendMail(message)
   console.log('Signup mail sent!');
@@ -58,8 +58,8 @@ function confirmationMail(userId, userMail, userName) {
   var message = {
     from: mail.auth.user,
     to: userMail,
-    subject: 'Confirm your signup for ' + config.event.name,
-    text: 'Hey ' + userName + '! You are now registered for ' + config.event.name + '!'
+    subject: 'Bestätige deine Teilnahme am ' + config.event.name,
+    text: 'Hey ' + userName + '! Danke das du deine Teilnahme bestätigt hast. Wir sehen uns auf dem ' + config.event.name + '! Nordische Grüße, dein Chaostreff Flensburg e.V.'
   };
   transporter.sendMail(message)
   console.log('Confirmation mail sent!');
