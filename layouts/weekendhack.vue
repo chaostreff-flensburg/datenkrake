@@ -2,33 +2,52 @@
   <div class="main">
     <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <div class="description">
-      <p>Ein Wochende hacken, prototypen und experimentieren im Technologiezentrum Flensburg. Am 31.03 & 01.04.2017 In der Lise-Meitner-Str. 2, 24941 Flensburg.</p>
+    <article>
+      <p>Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototypen oder experimentieren ein. Am 30.03./01.04. (Fr./Sa.) im Technologiezentrum Flensburg.</p>
+      </article>
     </div>
     <nuxt/>
     <h2 class="infotitle">Weitere Infos</h2>
     <div class="description more">
-      <p>
-        <strong>Das Event:</strong><br><br>
-        Wir laden alle Hacker und IT-Interessierte ein in lockerer Umgebung an Ihrem Projekt zu arbeiten. Bringe ein Projekt mit oder schließe dich einem Projekt an. Austausch, Mate, fachsimpeln - endlich  mal was fertig machen.<br>
-        Abgesehen von einigen Ankerpunkten gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wie Ihr wollt, es ist von Freitag 17:00 Uhr bis Samstag 23:00 Uhr geöffnet. <br>
-        Um Verpflegung kümmert sich jeder selbst, nur zum Frühstück am Samstag lädt der Chaostreff Flensburg ein. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/ LAN, und Strom sind vorhanden. Hardware bringt ihr selbst mit. Denkt bitte auch an ein LAN-Kabel + Verteilersteckdose.<br>
-        Wir freuen uns auf euch.
-        <br> <br>
+      <article>
+        <strong>Das Event:</strong>
+        <p>Wir laden alle Hacker und IT-Interessierten ein, in lockerer Umgebung an ihrem Projekt zu arbeiten. Bringe ein eigenes Projekt mit oder schließe Dich einem anderen Projekt an: Sich austauschen, Mate, miteinander fachsimpeln oder &laquo;endlich mal etwas fertig machen&raquo;.<br>
+        Abgesehen von einigen &laquo;Ankerpunkten&raquo; gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - wir haben von Freitag, 17 Uhr bis Samstag, 23 Uhr durchgehend geöffnet. <br>
+        Der Chaostreff lädt euch am Samstagmorgen zum Frühstück ein - darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/LAN und Strom sind ausreichend vorhanden. Eure Hardware bringt ihr bitte selbst mit (LAN-Kabel und Verteilersteckdose nicht vergessen!).<br>
+        Wir freuen uns auf Euch.</p>
+        </article>
+
+        <article>
         <strong>Ablaufplan</strong><br>
-        Start Freitag 17:00 Uhr<br>
-        18:00 Uhr, Willkommen und Vorstellungsrunde<br>
-        20:00 Uhr gemeinsames Abendessen, wir plündern die Lieferdienste<br>
-        21:00 - 00:00 Uhr Arduino Workshop mit Samuel<br>
+        <p>Freitag:</p>
+        <ul>
+          <li>17:00 Uhr: Start des Events</li>
+          <li>18:00 Uhr: Begrüßung und Vorstellungsrunde</li>
+          <li>20:00 Uhr: Abendessen (wir plündern gemeinsam die Lieferdienste)</li>
+          <li>21:00 - 00:00 Uhr: Arduino-Workshop mit Samuel</li>
+        </ul>
         <br>
-        Samstag:<br>
-        10:00 - 12:00 Gemeinsames Frühstück<br>
-        13:00 - 14:00 Workshop, Diskussion 3D Druck - Fluch oder Segen?<br>
-        18:00 Uhr - 20:00 Uhr Abendessen, wir plündern gemeinsam die Lieferdienste<br>
-        23:00 Uhr Ende<br>
+        <p>Samstag:</p>
+        <ul>
+          <li>10:00 - 12:00 Uhr: Gemeinsames Frühstück<br></li>
+          <li>13:00 - 14:00 Uhr: Workshop &amp; Diskussion 3D Druck - Fluch oder Segen?</li>
+          <li>18:00 - 20:00 Uhr: Abendessen (wir plündern gemeinsam die Lieferdienste)</li>
+          <li>23:00 Uhr: Feierabend</li>
+        </ul>
+        </article>
+
+        <article>
+        <p><strong>Location</strong><br></p>
+        <p>Technologiezentrum Flensburg, Lise-Meitner-Str. 2, 24941 Flensburg.</p>
+        <iframe width="620" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=9.440989494323732%2C54.761048546252%2C9.453756809234621%2C54.76582106825622&amp;layer=mapnik&amp;marker=54.76343178258027%2C9.447373151779175" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.76343&amp;mlon=9.44737#map=17/54.76343/9.44737">Größere Karte anzeigen</a></small>
+        </article>
+
+        <article>
+        <p>Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a> und der <a href="https://codingworld.io">Coding World UG (haftungsbeschränkt)</a>.
         <br>
-        Ein Event des <a href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a> und der <a href="http://codingworld.io">Coding World UG (haftungsbeschränkt)</a>.
-        <br>
-        <a href="http://chaostreff-flensburg.de/impressum/">Impressum</a>
+        <a href="http://chaostreff-flensburg.de/impressum/">Impressum</a></p>
+        </article>
+
       </p>
     </div>
     <img src="../assets/img/funkturm.svg" alt="" class="funkturm">
@@ -89,21 +108,24 @@ input, textarea {
   border-style: none;
 }
 
-.description p {
+.description article {
   background-image: url("../assets/img/overlay.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 4em;
+  font-size: 0.875em;
   padding: 0.75em;
   padding-top: 1.5em;
   padding-bottom: 1em;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.875em;
+  margin-top: 4em;
   text-align: left;
 }
-.more p {
+.description article p {
+  margin: 0 0.2em;
+}
+.more article {
   padding: 2.25em;
   padding-top: 3em;
   padding-bottom: 5em;
