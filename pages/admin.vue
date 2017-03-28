@@ -91,13 +91,19 @@ export default {
 
 table {
     border-collapse: collapse;
-    max-width: 1200px;
+    max-width: 97%;
+    margin: 1em;
     background-color: white;
 }
 
 th, td {
     text-align: left;
     padding: 8px;
+    word-wrap: break-word;
+}
+
+th {
+  word-wrap: break-word;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
