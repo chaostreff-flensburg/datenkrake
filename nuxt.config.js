@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'weekendHACK - Chaostreff Flensburg',
+    title: 'weekendHACK - Chaostreff Flensburg', // TODO: get title from config
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
