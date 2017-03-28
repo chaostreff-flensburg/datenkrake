@@ -2,7 +2,7 @@
   <section class="container">
     <h1>Datenkrake Admin</h1>
     <button name="" value="" @click="refresh">Refresh</button>
-    <h2>Bestätigte Anmeldungen</h2>
+    <h2>Bestätigte Anmeldungen ({{ users.confirmed.length }})</h2>
 
     <table>
       <thead>
@@ -25,7 +25,7 @@
       </tbody>
     </table>
 
-    <h2>Unbestätigte Anmeldungen</h2>
+    <h2>Unbestätigte Anmeldungen ({{ users.unconfirmed.length }})</h2>
 
     <table>
       <thead>
