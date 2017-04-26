@@ -10,7 +10,7 @@ module.exports = {
     ],
     link: [
       { href:"https://fonts.googleapis.com/css?family=Arvo:400,700", rel:"stylesheet"},
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png', size: '96x96' }
     ]
   },
   /*
