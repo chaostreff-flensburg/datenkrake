@@ -14,16 +14,17 @@ let transporter = nodemailer.createTransport(mail);
 router.post('/event/signup', function (req, res, next) {
   var user = req.body
   user.confirmed = false
+  console.log(user)
   db.insert(user, function(err, newUser) {
-    signupMail(newUser._id, newUser.mail, newUser.name)
-    res.status(200).end()
+    signupMail(newUser._id, newUser.email, newUser.name)
+    res.redirect('/submited')
   })
 })
 
 router.get('/event/confirm/:id', function(req, res, next) {
   db.update({_id: req.params.id}, {$set: {confirmed: true}}, {returnUpdatedDocs: true}, function(err, numAffected, affectedDocuments, upsert) {
     var user = affectedDocuments
-    confirmationMail(user._id, user.mail, user.name)
+    confirmationMail(user._id, user.email, user.name)
     res.redirect('/confirmed')
   })
 })

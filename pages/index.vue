@@ -1,16 +1,16 @@
 <template>
   <section class="container">
-    <div class="registration">
+    <form action="/api/event/signup" method="post" class="registration">
       <h3>Name / Nickname:</h3>
       <input type="text" name="name" required="true" v-model="user.name" placeholder="Name / @Nickname">
       <h3>Mailadresse:</h3>
-      <input type="mail" name="email" required="true" v-model="user.mail" placeholder="mail@example.com">
+      <input type="email" name="email" required="true" v-model="user.mail" placeholder="mail@example.com">
       <h3>Dein Projekt:</h3>
       <textarea name="description" rows="3" cols="80" v-model="user.desc" placeholder="Hast Du bereits ein Projekt, an dem Du arbeiten, oder eine Session, die Du veranstalten möchtest? Beschreibe es! (optionale Angabe)"></textarea>
       <div class="submit">
-        <button v-on:click="signup" name="submit">Anmelden</button>
+        <button type="submit">Anmelden</button>
       </div>
-    </div>
+    </form>
   </section>
 </template>
 
@@ -26,27 +26,6 @@ export default {
         name:'',
         mail:'',
         desc:''
-      }
-    }
-  },
-  methods: {
-    signup: function() {
-      if (this.user.name !== '' && mailValidator.validate(this.user.mail)) {
-        axios.post('/api/event/signup', {
-          name: this.user.name,
-          mail: this.user.mail,
-          desc: this.user.desc
-        })
-        .then(function (response) {
-          console.log(response);
-          window.location.href = "/submited";
-        })
-        .catch(function (error) {
-          console.log(error);
-        })
-      }
-      else {
-        alert('Bitte fülle alle Felder aus um dich anzumelden.')
       }
     }
   }
