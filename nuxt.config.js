@@ -22,6 +22,7 @@ module.exports = {
   ** Add axios globally
   */
   build: {
-    vendor: ['axios']
-  }
+    vendor: ['axios', 'vue-moment-jalaali']
+  },
+  plugins: ['~plugins/vue-moment']
 }

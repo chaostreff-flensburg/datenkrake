@@ -19,8 +19,8 @@
           <td>{{ user.name }}</td>
           <td>{{ user.mail }}</td>
           <td>{{ user.desc }}</td>
-          <td>{{ user.createdAt }}</td>
-          <td>{{ user.updatedAt }}</td>
+          <td>{{ user.createdAt | moment('DD.MM.YYYY HH:mm') }}</td>
+          <td>{{ user.updatedAt | moment('DD.MM.YYYY HH:mm') }}</td>
         </tr>
       </tbody>
     </table>
@@ -42,8 +42,8 @@
           <td>{{ user.name }}</td>
           <td>{{ user.mail }}</td>
           <td>{{ user.desc }}</td>
-          <td>{{ user.createdAt }}</td>
-          <td>{{ user.updatedAt }}</td>
+          <td>{{ user.createdAt | moment('DD.MM.YYYY HH:mm') }}</td>
+          <td>{{ user.updatedAt | moment('DD.MM.YYYY HH:mm') }}</td>
         </tr>
       </tbody>
     </table>
