@@ -14,7 +14,6 @@ let transporter = nodemailer.createTransport(mail);
 router.post('/event/signup', function (req, res, next) {
   var user = req.body
   user.confirmed = false
-  console.log(user)
   db.insert(user, function(err, newUser) {
     signupMail(newUser._id, newUser.email, newUser.name)
     res.redirect('/submited')
