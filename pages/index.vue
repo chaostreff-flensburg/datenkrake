@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <nuxt-link to="/registration">Anmelden</nuxt-link>
+    <article v-html="article"></article>
   </section>
 </template>
 
@@ -8,31 +9,19 @@
 import axios from '~plugins/axios'
 
 export default {
-  layout: 'weekendhack'
+  layout: 'weekendhack',
+  asyncData(context) {
+    return axios.get('/api/event/content/index')
+    .then((res) => {
+      return { article: res.data.content }
+    })
+    .catch((e) => {
+      context.error({ statusCode: 404, message: 'Article not found' })
+    })
+  }
 }
 </script>
 
 <style scoped>
-.registration {
-  display: flex;
-  flex-direction: column;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-input {
-  padding: 0.75em;
-  border-radius: 2px;
-}
-textarea {
-  resize: vertical;
-}
-.submit {
-  text-align: right;
-}
-button {
-  padding: 0.75em;
-  margin-top: 0.5em;
-}
 </style>

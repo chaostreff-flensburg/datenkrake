@@ -20,8 +20,8 @@ Die nächsten Kommerziellen Flugplätze sind Hamburg und Billund und beide damit
 ## Unterkunft
 ### Hostels
 Es gibt zwei Hostels in Flensburg, beide sind ca. 2,5-3km vom weekendHack entfernt und bieten Schlafplätze ab 20€ die Nach an:
-http://www.hostel-flensburg.de/deutsch/index.php
-https://www.flensbed.de
+http://www.hostel-flensburg.de/deutsch/index.php  
+https://www.flensbed.de  
 
 ### Ferienwohnungen und Airbnb
 Es gibt relativ viele Ferienwohnung in Flensburg und AirBnb Angebote. Ihr bekommt dabei ein AirBnb Zimmer ab 30€.

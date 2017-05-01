@@ -1,12 +1,18 @@
 var router = require('express').Router()
+var fs = require('fs')
+var path = require('path')
+
+var marked = require('marked')
 var Datastore = require('nedb')
 var nodemailer = require('nodemailer')
+
+const contentFolder = path.resolve(__dirname + '/../content/')
 
 var mail = require(__dirname + '/../mail.config.json')
 var config = require(__dirname + '/../config.json')
 var db = new Datastore({ filename: __dirname + '/../db/event', autoload: true, timestampData: true })
 
-let transporter = nodemailer.createTransport(mail);
+let transporter = nodemailer.createTransport(mail)
 
 
 // routes
@@ -37,6 +43,18 @@ router.get('/event/users/confirmed', function(req, res, next) {
 router.get('/event/users/unconfirmed', function(req, res, next) {
   db.find({confirmed:false}, function(err, docs) {
     res.send(docs)
+  })
+})
+
+router.get('/event/content/:slug', function (req, res, next) {
+  fs.readFile(__dirname + '/../content/' + req.params.slug + '.md', 'utf8', (err, data) => {
+    if (err) res.sendStatus(404)
+    else {
+      var article = {
+        content: marked(data)
+      }
+      res.json(article);
+    }
   })
 })
 

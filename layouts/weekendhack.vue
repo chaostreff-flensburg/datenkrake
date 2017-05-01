@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    
+
     <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <nuxt/>
     <div class="description more">
@@ -51,8 +51,8 @@ p, div, span {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #d9e1e8;
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  color: #cd334d;
+  /*text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);*/
   margin-bottom: 0.25em;
   margin-top: 0.5em;
   text-align: left;
@@ -69,28 +69,23 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 0.875em;
-  padding: 0.75em;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
-  max-width: 500px;
+  padding: 1em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
   text-align: left;
 }
-.description article p {
+article p {
   margin: 0 0.2em;
+  z-index: 25;
 }
-.more article {
+article {
   padding: 2.25em;
   padding-top: 3em;
   padding-bottom: 5em;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 780px;
-}
-.description {
-  z-index: 25;
 }
 
 .infotitle {
