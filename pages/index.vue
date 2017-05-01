@@ -16,7 +16,6 @@
 
 <script>
 import axios from '~plugins/axios'
-import mailValidator from "email-validator"
 
 export default {
   layout: 'weekendhack',
