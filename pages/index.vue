@@ -23,5 +23,15 @@ export default {
 </script>
 
 <style scoped>
-
+.content {
+  position: absolute;
+  top: 90vh;
+  /*center content*/
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  /*--*/
+  z-index: 30;
+}
 </style>
