@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <nuxt-link to="/registration">Anmelden</nuxt-link>
-    <article v-html="article"></article>
+    <article class="content" v-html="article"></article>
   </section>
 </template>
 
