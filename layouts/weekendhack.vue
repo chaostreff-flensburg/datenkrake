@@ -123,7 +123,7 @@ small {
   position: fixed;
   top: 90vh;
   width: 110vw;
-  /*z-index: 20;*/
+  z-index: 10;
 }
 .funkturm {
   position: fixed;
