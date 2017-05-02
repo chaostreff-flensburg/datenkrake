@@ -1,7 +1,14 @@
 <template>
   <section class="container">
-    <nuxt-link to="/registration">Anmelden</nuxt-link>
-    <article class="content" v-html="article"></article>
+    <nuxt-link to="/registration" id="regLink">
+      <div id="regLink">
+        <span class="red">Zur Anmeldung</span>
+      </div>
+    </nuxt-link>
+    <div class="content">
+      <article v-html="article">
+      </article>
+    </div>
   </section>
 </template>
 
@@ -23,6 +30,20 @@ export default {
 </script>
 
 <style scoped>
+#regLink {
+  margin-top: 2.7em;
+  font-size: 26px;
+  font-weight: 600;
+}
+#regLink span {
+  padding: 0.75rem;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: #cd334d;
+  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
 .content {
   position: absolute;
   top: 90vh;
