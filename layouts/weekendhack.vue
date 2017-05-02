@@ -1,11 +1,7 @@
 <template>
   <div class="main">
-
     <img src="../assets/img/hackend-logo.svg" alt="weekendHACK Logo" class="logo">
     <nuxt/>
-    <div class="description more">
-
-    </div>
     <img src="../assets/img/funkturm.svg" alt="" class="funkturm">
     <img src="../assets/img/overlay.svg" alt="" class="overlay">
   </div>
