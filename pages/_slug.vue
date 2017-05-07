@@ -1,10 +1,5 @@
 <template>
   <section class="container">
-    <nuxt-link to="/registration" id="regLink">
-      <div id="regLink">
-        <span class="red">Zur Anmeldung</span>
-      </div>
-    </nuxt-link>
     <div class="content">
       <article v-html="article">
       </article>
@@ -46,7 +41,7 @@ export default {
 
 .content {
   position: absolute;
-  top: 90vh;
+  top: 40vh;
   /*center content*/
   margin-left: auto;
   margin-right: auto;
