@@ -46,7 +46,7 @@ export default {
 
 .content {
   position: absolute;
-  top: 90vh;
+  top: 91vh;
   /*center content*/
   margin-left: auto;
   margin-right: auto;

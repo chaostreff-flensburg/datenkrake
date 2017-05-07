@@ -1,11 +1,11 @@
-[Startseite](/) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
 
 ---
 
 Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototypen oder experimentieren ein. Vom 30.06./02.07. (Fr.-So.) im Technologiezentrum Flensburg.
 
 
-## DAS EVENT:
+## DAS EVENT
 Wir laden alle Hacker und IT-Interessierten ein, in lockerer Umgebung an ihrem Projekt zu arbeiten. Bringe ein eigenes Projekt mit oder schließe Dich einem anderen Projekt an: Sich austauschen, Mate, miteinander fachsimpeln oder «endlich mal etwas fertig machen».
 Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - wir haben von Freitag, 17 Uhr bis Samstag, 23 Uhr durchgehend geöffnet.
 Der Chaostreff lädt euch am Samstagmorgen zum Frühstück ein - darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/LAN und Strom sind ausreichend vorhanden. Eure Hardware bringt ihr bitte selbst mit (LAN-Kabel und Verteilersteckdose nicht vergessen!).

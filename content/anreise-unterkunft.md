@@ -1,4 +1,4 @@
-[Startseite](/) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
 
 ---
 
