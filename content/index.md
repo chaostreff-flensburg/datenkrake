@@ -1,3 +1,7 @@
+[Startseite](/) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+
+---
+
 Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototypen oder experimentieren ein. Vom 30.06./02.07. (Fr.-So.) im Technologiezentrum Flensburg.
 
 
@@ -7,15 +11,29 @@ Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt 
 Der Chaostreff lädt euch am Samstagmorgen zum Frühstück ein - darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/LAN und Strom sind ausreichend vorhanden. Eure Hardware bringt ihr bitte selbst mit (LAN-Kabel und Verteilersteckdose nicht vergessen!).
 Wir freuen uns auf Euch.
 
-## ABLAUFPLAN
-### Freitag:
-17:00 Uhr: Start des Events
-18:00 Uhr: Begrüßung und Vorstellungsrunde
-20:00 Uhr: Abendessen (wir plündern gemeinsam die Lieferdienste)
-21:00 - 00:00 Uhr: Arduino-Workshop mit Samuel
+## Fahrplan
+Außerhalb des Fahrplans gibt es auch Self-Organized-Session. Diese findest du hier: [pad.chaostreff-flensburg.de/p/wh-sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
 
-### Samstag:
-10:00 - 12:00 Uhr: Gemeinsames Frühstück
-13:00 - 14:00 Uhr: Workshop & Diskussion 3D Druck - Fluch oder Segen?
-18:00 - 20:00 Uhr: Abendessen (wir plündern gemeinsam die Lieferdienste)
-23:00 Uhr: Feierabend
+### Freitag 30.06
+
+| 17:00 | Aufbau. Du darfst gerne schon vorbei kommen, dich einrichten und Aufbauen helfen. |
+| -- | -- |
+| 19:00 | Willkommen und Vorstellungsrunde |
+| 20:00 | Abendesse: Wir Plündern die Flensburger Lieferdienste |
+
+
+### Samstag 01.07
+
+| 10:00 | Frühtück |
+| -- | -- |
+| 13:00 - 17:00 | Vorträge |
+| 18:00 | Abendesse: Grillen |
+| 20:00 | Gemeinsamer Abend Ausklang |
+
+
+### Sonntag 02.07
+
+| 10:30 | Frühtück |
+| -- | -- |
+| 13:00 | Projekt Abschlussrunde |
+| 15:00 | Gemeinsames Abbauen |

@@ -1,3 +1,7 @@
+[Startseite](/) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+
+---
+
 ## Anfahrt
 Flensburg ist eine Weltstadt die sich gut am nördlichsten Ende von Deutschland versteckt hat, wir haben hier aber ein paar Möglichkeiten für die Anfahrt für euch Zusammengefasst:
 
