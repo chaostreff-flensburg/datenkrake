@@ -54,8 +54,18 @@ router.get('/event/content/:slug', function (req, res, next) {
       var article = {
         content: marked(data)
       }
-      res.json(article);
+      res.json(article)
     }
+  })
+})
+
+router.get('/event/content', function (req, res, next) {
+  fs.readdir(__dirname + '/../content/', (err, files) => {
+    if (err) res.sendStatus(404)
+    for (var i = 0; i < files.length; i++) {
+      files[i] = files[i].slice(0, -3);
+    }
+    res.json(files)
   })
 })
 
