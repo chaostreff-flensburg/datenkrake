@@ -59,6 +59,10 @@ input, textarea {
   border-radius: 2px;
   border-style: none;
 }
+hr {
+  border-style: solid;
+  color: rgb(220, 220, 220);
+}
 
 article {
   background-image: url("../assets/img/overlay.svg");
