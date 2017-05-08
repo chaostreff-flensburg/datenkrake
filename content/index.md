@@ -7,8 +7,11 @@ Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototy
 
 ## DAS EVENT
 Wir laden alle Hacker und IT-Interessierten ein, in lockerer Umgebung an ihrem Projekt zu arbeiten. Bringe ein eigenes Projekt mit oder schließe Dich einem anderen Projekt an: Sich austauschen, Mate, miteinander fachsimpeln oder «endlich mal etwas fertig machen».
-Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - wir haben von Freitag, 17 Uhr bis Samstag, 23 Uhr durchgehend geöffnet.
-Der Chaostreff lädt euch am Samstagmorgen zum Frühstück ein - darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/LAN und Strom sind ausreichend vorhanden. Eure Hardware bringt ihr bitte selbst mit (LAN-Kabel und Verteilersteckdose nicht vergessen!).
+Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - wir haben von Freitag, 17 Uhr bis Sonntag, 16 Uhr durchgehend geöffnet. 
+Am Samstag und Sonntag Morgen wollen wir zusammen Frühstücken und zusätzlich am Samstagabend gemeinsem Grillen - darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. WLAN/LAN und Strom sind ausreichend vorhanden. Eure Hardware bringt ihr bitte selbst mit (LAN-Kabel und Verteilersteckdose nicht vergessen!).
+Um das Frühstück, Grillen und weitere Kosten decken zu können kostet die Teilnahme 20€ wer gern mehr dazu beitragen möchte darf dies gern machen. 
+Wenn 20€ für dich zu viel sind schreib uns doch eine Mail und wir werden eine Lösung finden.
+Die Zahlungsmöglichkeiten findet ihr in der Mail sobald ihr euch angemeldet habt.
 Wir freuen uns auf Euch.
 
 ## Fahrplan
