@@ -20,6 +20,7 @@ Außerhalb des Fahrplans gibt es auch Self-Organized-Session. Diese findest du h
 ### Freitag 30.06
 
 | 17:00 | Aufbau. Du darfst gerne schon vorbei kommen, dich einrichten und Aufbauen helfen. |
+| -- | -- |
 | 19:00 | Willkommen und Vorstellungsrunde |
 | 20:00 | Abendesse: Wir Plündern die Flensburger Lieferdienste |
 
