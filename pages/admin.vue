@@ -9,7 +9,9 @@
         <tr>
           <th>Name/@Nick</th>
           <th>Mail</th>
+          <th>Vegi</th>
           <th>Projekt</th>
+          <th>ID/Farbe</th>
           <th>Angemeldet</th>
           <th>Bestätigt</th>
         </tr>
@@ -17,8 +19,10 @@
       <tbody>
         <tr v-for="user in users.confirmed">
           <td>{{ user.name }}</td>
-          <td>{{ user.mail }}</td>
-          <td>{{ user.desc }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.vegi }}</td>
+          <td>{{ user.description }}</td>
+          <td>{{ user.color }}</td>
           <td>{{ user.createdAt | moment('DD.MM.YYYY HH:mm') }}</td>
           <td>{{ user.updatedAt | moment('DD.MM.YYYY HH:mm') }}</td>
         </tr>
@@ -32,18 +36,24 @@
         <tr>
           <th>Name/@Nick</th>
           <th>Mail</th>
+          <th>Vegi</th>
           <th>Projekt</th>
+          <th>ID/Farbe</th>
           <th>Angemeldet</th>
           <th>Bestätigt</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="user in users.unconfirmed">
           <td>{{ user.name }}</td>
-          <td>{{ user.mail }}</td>
-          <td>{{ user.desc }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.vegi }}</td>
+          <td>{{ user.description }}</td>
+          <td>{{ user.color }}</td>
           <td>{{ user.createdAt | moment('DD.MM.YYYY HH:mm') }}</td>
           <td>{{ user.updatedAt | moment('DD.MM.YYYY HH:mm') }}</td>
+          <td><a v-bind:href="'/api/event/confirm/' + user._id"><button>Bestätigen</button></a></td>
         </tr>
       </tbody>
     </table>

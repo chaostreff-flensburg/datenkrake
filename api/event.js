@@ -5,6 +5,7 @@ var path = require('path')
 var marked = require('marked')
 var Datastore = require('nedb')
 var nodemailer = require('nodemailer')
+var hashbow = require('hashbow')
 
 const contentFolder = path.resolve(__dirname + '/../content/')
 
@@ -17,23 +18,24 @@ let transporter = nodemailer.createTransport(mail)
 
 // routes
 
-router.post('/event/signup', function (req, res, next) {
+router.post('/event/signup', async function (req, res, next) {
   var user = req.body
   user.confirmed = false
   user.reminded = false
+  user.color = hashbow(user.name)
   db.insert(user, function(err, newUser) {
     signupMail(newUser._id, newUser.email, newUser.name)
     res.redirect('/submitted')
   })
 })
 
-// router.get('/event/confirm/:id', function(req, res, next) {
-//   db.update({_id: req.params.id}, {$set: {confirmed: true}}, {returnUpdatedDocs: true}, function(err, numAffected, affectedDocuments, upsert) {
-//     var user = affectedDocuments
-//     confirmationMail(user._id, user.email, user.name)
-//     res.redirect('/confirmed')
-//   })
-// })
+router.get('/event/confirm/:id', function(req, res, next) {
+  db.update({_id: req.params.id}, {$set: {confirmed: true}}, {returnUpdatedDocs: true}, function(err, numAffected, affectedDocuments, upsert) {
+    var user = affectedDocuments
+    confirmationMail(user._id, user.email, user.name)
+    res.redirect('/admin')
+  })
+})
 
 router.get('/event/users/confirmed', function(req, res, next) {
   db.find({confirmed:true}, function(err, docs) {
@@ -96,7 +98,11 @@ setInterval(function() {
           docs[i].name,
           'Vergiss nicht dein Ticket zu bezahlen!',
           `Moin ${docs[i].name},
-          bitte vergesse nicht dein Ticket zu bezahlen.`
+          bitte vergesse nicht dein Ticket zu bezahlen.
+
+          Nordische Grüße,
+
+          Chaostreff Flensburg e.V.`
         )
         db.update({_id: docs[i]._id}, {$set: {reminded: true}})
       }
@@ -107,32 +113,45 @@ setInterval(function() {
 
 // helper functions
 
-function signupMail(userId, userMail, userName) {
+function signupMail(userId, userMail, userName, code) {
   var message = {
     from: mail.auth.user,
     to: userMail,
     subject: 'Bestätige deine Teilnahme am ' + config.event.name,
-    text: `Hallo ${userName}!
-    Wenn du Fragen hast oder deine Teilnahme absagen möchtest, antworte einfach auf diese Mail.
+    text: `Moin ${userName}!
+    Um deine Anmeldung zu bestätigen bitten wir dich den betrag von 20€ an den Chaostreff Flensburg zu senden.
+    Das Geld kannst du uns entweder überweisen oder via Paypal zukommen lassen.
 
-    Nordische Grüße,
+    Name: Chaostreff Flensburg e. V.
+    IBAN: DE48 2175 0000 0165 0052 81
+    BIC: NOLADE21NOS (Nord-Ostsee Sparkasse)
 
+    oder:
+
+    paypal.me/chaosfl/20
+
+    Bitte verwende folgenden Code ${code} in deinem Verwendungszweck damit wir deine Zahlung zuordnen können.
+
+    Bitte Sende uns den Betrag innerhalb von 10 Tagen zu. Wenn bis dahin kein Geld eingegangen ist wird dein Platz wieder freigegeben da wir nur begrenzt Platz haben.
+
+    PS: Falls dir 20€ zu viel sind oder du nur einen Tag kommen möchtest antworte uns einfach auf diese Mail und wir werden eine Lösung finden.
+    Mit freundlichen Grüße dein
     Chaostreff Flensburg e.V.`
   };
   transporter.sendMail(message)
   console.log('Signup mail sent!', userMail);
 }
 
-// function confirmationMail(userId, userMail, userName) {
-//   var message = {
-//     from: mail.auth.user,
-//     to: userMail,
-//     subject: 'Bestätige deine Teilnahme am ' + config.event.name,
-//     text: 'Hey ' + userName + '! Danke das du deine Teilnahme bestätigt hast. Wir sehen uns auf dem ' + config.event.name + '! Nordische Grüße, dein Chaostreff Flensburg e.V.'
-//   };
-//   transporter.sendMail(message)
-//   console.log('Confirmation mail sent!', userMail);
-// }
+function confirmationMail(userId, userMail, userName) {
+  var message = {
+    from: mail.auth.user,
+    to: userMail,
+    subject: 'Bestätige deine Teilnahme am ' + config.event.name,
+    text: 'Hey ' + userName + '! Danke das du deine Teilnahme bestätigt hast. Wir sehen uns auf dem ' + config.event.name + '! Nordische Grüße, dein Chaostreff Flensburg e.V.'
+  };
+  transporter.sendMail(message)
+  console.log('Confirmation mail sent!', userMail);
+}
 
 function sendMail(email, name, subject, text) {
   var message = {
