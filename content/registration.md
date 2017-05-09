@@ -1,4 +1,4 @@
-[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
 
 ---
 
@@ -11,3 +11,6 @@ Unsere Bankdaten erhältst du mit deiner Bestätigungsmail.
 Wenn du oder deine Firma uns mit einer kleinen Spende unterstützen möchten schreibe uns ein Mail an [mail@chaostreff-flensburg.de](mailto:mail@chaostreff-flensburg.de). Der Chaostreff Flensburg e.V. ist ein gemeinnütziger Verein und stellt für Spenden ab 50€ eine Spendenbescheinigung aus.  
 Mit deine Unterstützung können wir den weekendHACK noch viel größer machen, weitere Aktionen planen und vielleicht auch kleine Goodies unseren Besuchern bieten. Riesige Wasserschlachten, Shirts, Sticker, wir sind auch für eure Ideen offen!  
 Mit deiner Spende können wir außerdem Teilnehmer unterstützen die sich andernfalls die Teilnahme nicht leisten könnten.
+
+---
+[Impressum](https://chaostreff-flensburg.de/impressum/)

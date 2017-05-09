@@ -1,6 +1,10 @@
-[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
 
 ---
+## Adresse
+Technologiezentrum Flensburg, Lise-Meitner-Straße 2, 24941 Flensburg
+
+<iframe width="620" height="320" style="margin: 1em;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=9.440989494323732%2C54.761048546252%2C9.453756809234621%2C54.76582106825622&amp;layer=mapnik&amp;marker=54.76343178258027%2C9.447373151779175" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.76343&amp;mlon=9.44737#map=17/54.76343/9.44737">Größere Karte anzeigen</a></small>
 
 ## Anfahrt
 Flensburg ist eine Weltstadt die sich gut am nördlichsten Ende von Deutschland versteckt hat, wir haben hier aber ein paar Möglichkeiten für die Anfahrt für euch Zusammengefasst:
@@ -42,3 +46,6 @@ Z.b:
 Central Hotel, 3 Sterne, 2,4km
 Hotel am Rathaus, 3 Sterne, 2,8km
 etc...
+
+---
+[Impressum](https://chaostreff-flensburg.de/impressum/)

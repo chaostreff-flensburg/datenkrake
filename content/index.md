@@ -1,8 +1,8 @@
-[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
 
 ---
 
-Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototypen oder experimentieren ein. Vom 30.06./02.07. (Fr.-So.) im Technologiezentrum Flensburg.
+Der Chaostreff Flensburg lädt euch zu einem Wochenende rund ums hacken, prototypen oder experimentieren ein. Vom 30.06. bis 02.07. (Fr.-So.) im Technologiezentrum Flensburg.
 
 
 ## DAS EVENT
@@ -15,7 +15,7 @@ Die Zahlungsmöglichkeiten findet ihr in der Mail sobald ihr euch angemeldet hab
 Wir freuen uns auf Euch.
 
 ## Fahrplan
-Außerhalb des Fahrplans gibt es auch Self-Organized-Session. Diese findest du hier: [pad.chaostreff-flensburg.de/p/wh-sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
+Außerhalb des Fahrplans gibt es auch Self-Organized-Session an denen du teilnehmen kannst. Diese findest du hier: [pad.chaostreff-flensburg.de/p/wh-sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
 
 ### Freitag 30.06
 
@@ -43,3 +43,6 @@ Außerhalb des Fahrplans gibt es auch Self-Organized-Session. Diese findest du h
 | 10:30 | Frühtück |
 | 13:00 | Projekt Abschlussrunde |
 | 15:00 | Gemeinsames Abbauen |
+
+---
+[Impressum](https://chaostreff-flensburg.de/impressum/)
