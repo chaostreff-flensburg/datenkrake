@@ -18,6 +18,10 @@
         <button type="submit">Anmelden</button>
       </div>
     </form>
+    <div class="content">
+      <article v-html="article">
+      </article>
+    </div>
   </section>
 </template>
 
@@ -25,7 +29,16 @@
 import axios from '~plugins/axios'
 
 export default {
-  layout: 'weekendhack'
+  layout: 'weekendhack',
+  asyncData(context) {
+    return axios.get('/api/event/content/registration')
+    .then((res) => {
+      return { article: res.data.content }
+    })
+    .catch((e) => {
+      context.error({ statusCode: 404, message: 'Article not found' })
+    })
+  }
 }
 </script>
 
@@ -54,5 +67,15 @@ textarea {
 button {
   padding: 0.75em;
   margin-top: 0.5em;
+}
+.content {
+  margin-top: 1em;
+  /*center content*/
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  /*--*/
+  z-index: 30;
 }
 </style>
