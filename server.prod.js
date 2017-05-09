@@ -10,7 +10,7 @@ var options = {
   strict: false
 };
 
-app.use(bodyParser.json(options)); // for parsing application/json
+app.use(bodyParser()); // for parsing application/json
 
 app.set('port', port);
 // Import API Routes
