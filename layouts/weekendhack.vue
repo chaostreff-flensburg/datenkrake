@@ -99,6 +99,7 @@ a, em, strong {
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
+  font-size: 0.9em;
 }
 iframe {
   margin-top: 1.5em;
