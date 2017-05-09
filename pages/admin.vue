@@ -52,7 +52,6 @@
           <td>{{ user.description }}</td>
           <td>{{ user.color }}</td>
           <td>{{ user.createdAt | moment('DD.MM.YYYY HH:mm') }}</td>
-          <td>{{ user.updatedAt | moment('DD.MM.YYYY HH:mm') }}</td>
           <td><a v-bind:href="'/api/event/confirm/' + user._id"><button>Bestätigen</button></a></td>
         </tr>
       </tbody>
