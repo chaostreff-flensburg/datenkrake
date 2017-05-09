@@ -118,7 +118,7 @@ function signupMail(userId, userMail, userName, code) {
   var message = {
     from: mail.auth.user,
     to: userMail,
-    subject: 'Bestätige deine Teilnahme am ' + config.event.name,
+    subject: 'Deine Teilnahme am ' + config.event.name,
     text: `Moin ${userName}!
     Um deine Anmeldung zu bestätigen bitten wir dich den Betrag von 20€ an den Chaostreff Flensburg zu senden.
     Das Geld kannst du uns entweder überweisen oder via Paypal zukommen lassen.
@@ -147,8 +147,20 @@ function confirmationMail(userId, userMail, userName) {
   var message = {
     from: mail.auth.user,
     to: userMail,
-    subject: 'Bestätige deine Teilnahme am ' + config.event.name,
-    text: 'Hey ' + userName + '! Danke das du deine Teilnahme bestätigt hast. Wir sehen uns auf dem ' + config.event.name + '! Nordische Grüße, dein Chaostreff Flensburg e.V.'
+    subject: 'Deine Teilnahme am ' + config.event.name,
+    text: 'Hey ' + userName + `!
+    Wir bestätigen deine Teilnahme an der WeekendHack. Du bist jetzt angemeldet und Bestätigt. Solltest du nicht  kommen können, schreibe uns bitte eine kurze Mail.
+
+    Hier noch einmal alle wichtigen Daten.
+
+    weekendHACK
+    Technologiezentrum, Liese-Meitner-Str. 2, 24941 Flensburg
+    Freitag: 30.06.2017 ab 18:00 Uhr bis Sonntag, 02.07.2017
+
+    Denke an deinen Laptop, Verteilersteckdose, Lankabel.
+
+    Wir sehen uns auf dem weekendHack!
+    Nordische Grüße, dein Chaostreff Flensburg e.V.`
   };
   transporter.sendMail(message)
   console.log('Confirmation mail sent!', userMail);
