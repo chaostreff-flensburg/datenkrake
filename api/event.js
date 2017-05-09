@@ -119,7 +119,7 @@ function signupMail(userId, userMail, userName, code) {
     to: userMail,
     subject: 'Bestätige deine Teilnahme am ' + config.event.name,
     text: `Moin ${userName}!
-    Um deine Anmeldung zu bestätigen bitten wir dich den betrag von 20€ an den Chaostreff Flensburg zu senden.
+    Um deine Anmeldung zu bestätigen bitten wir dich den Betrag von 20€ an den Chaostreff Flensburg zu senden.
     Das Geld kannst du uns entweder überweisen oder via Paypal zukommen lassen.
 
     Name: Chaostreff Flensburg e. V.
