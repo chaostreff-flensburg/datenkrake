@@ -23,6 +23,7 @@ router.post('/event/signup', async function (req, res, next) {
   user.confirmed = false
   user.reminded = false
   user.color = await hashbow(user.name)
+  user.color = user.color.substr(1, myString.length)
   db.insert(user, function(err, newUser) {
     signupMail(newUser._id, newUser.email, newUser.name, user.color)
     res.redirect('/submitted')
