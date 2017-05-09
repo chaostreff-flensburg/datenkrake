@@ -126,10 +126,12 @@ function signupMail(userId, userMail, userName, code) {
     Name: Chaostreff Flensburg e. V.
     IBAN: DE48 2175 0000 0165 0052 81
     BIC: NOLADE21NOS (Nord-Ostsee Sparkasse)
+    Verwendungszweck: weekendHACK ${code}
 
     oder:
 
     paypal.me/chaosfl/20
+    Verwendungszweck: weekendHACK ${code}
 
     Bitte verwende folgenden Code ${code} in deinem Verwendungszweck damit wir deine Zahlung zuordnen können.
 
