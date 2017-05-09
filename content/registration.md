@@ -3,13 +3,14 @@
 ---
 
 ## Anmeldung & Kosten
-Für die Teilnahme am weekendHACK bitten wir um **eine Spende von 20€** an den Chaostreff Flensburg. Dafür bekommst du am Wochenende von uns ein open-end Frühstück gestellt und am Samstag Abend genug Lebensmittel um ordentlich zusammen zu grillen. Deswegen wähle bei der Anmeldung aus ob du Vegetarier, Veganer oder Fleischesser bist, das hilft uns bei der Planung.  
-Wenn du dir die Teilnahme nicht vollständig leisten kannst, nicht das ganze Wochenende teilnehmen möchtest, oder nur für kurze Zeit vorbei schauen möchtest, melde dich einfach trotzdem an und schreibe uns eine kurze Mail an [mail@chaostreff-flensburg.de](mailto:mail@chaostreff-flensburg.de). Dann finden wir mit dir zusammen eine Lösung. **Wir möchten jeden auf dem weekendHACK willkommen heißen, egal welches Budget du hast.** Also zögere nicht uns zu fragen!  
+Für die Teilnahme am weekendHACK bitten wir um **eine Spende in Höhe von 20€**. Dafür gibt es ein open-end Frühstück und Samstag Abend grillen wir zusammen.  
+<br>Wähle bei der Anmeldung ob du Vegetarier, Veganer oder Fleischesser bist, das hilft uns bei der Planung. <br>
+Wenn du dir die Teilnahme nicht leisten kannst oder nur an einem Tag kommst, schreibe uns eine kurze Mail an [mail@chaostreff-flensburg.de](mailto:mail@chaostreff-flensburg.de), dann finden wir eine Lösung. **Wir möchten jeden auf dem weekendHACK willkommen heißen, egal welches Budget du hast.** Also zögere nicht uns zu fragen!<br>
 Unsere Bankdaten erhältst du mit deiner Bestätigungsmail.
 
 ## Unterstütze den weekendHACK
-Wenn du oder deine Firma uns mit einer kleinen Spende unterstützen möchten schreibe uns ein Mail an [mail@chaostreff-flensburg.de](mailto:mail@chaostreff-flensburg.de). Der Chaostreff Flensburg e.V. ist ein gemeinnütziger Verein und stellt für Spenden ab 50€ eine Spendenbescheinigung aus.  
-Mit deine Unterstützung können wir den weekendHACK noch viel größer machen, weitere Aktionen planen und vielleicht auch kleine Goodies unseren Besuchern bieten. Riesige Wasserschlachten, Shirts, Sticker, wir sind auch für eure Ideen offen!  
+Wenn du oder deine Firma uns mit einer Spende unterstützen möchten schreibe uns ein Mail an [mail@chaostreff-flensburg.de](mailto:mail@chaostreff-flensburg.de). Der Chaostreff Flensburg e.V. ist ein gemeinnütziger Verein und stellt für Spenden ab 50€ eine Spendenbescheinigung aus.  
+Mit deine Unterstützung können wir die weekendHACK noch viel größer machen; Riesige Wasserschlachten, Shirts, Sticker, wir sind auch für eure Ideen offen! <br>
 Mit deiner Spende können wir außerdem Teilnehmer unterstützen die sich andernfalls die Teilnahme nicht leisten könnten.
 
 ---
