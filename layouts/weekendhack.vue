@@ -21,6 +21,7 @@ html, body {
   background-repeat: no-repeat;
   font-family: "Arvo", monospace !important;
   text-shadow: none;
+  line-height: 1.25;
 }
 @media (max-width: 800px) {
   html, body {
