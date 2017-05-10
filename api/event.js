@@ -5,7 +5,6 @@ var path = require('path')
 var marked = require('marked')
 var Datastore = require('nedb')
 var nodemailer = require('nodemailer')
-var hashbow = require('hashbow')
 
 const contentFolder = path.resolve(__dirname + '/../content/')
 
@@ -22,7 +21,7 @@ router.post('/event/signup', async function (req, res, next) {
   var user = req.body
   user.confirmed = false
   user.reminded = false
-  user.color = await hashbow(user.name+user.email)
+  user.color = await randomString(6)
   user.color = user.color.substr(1, user.color.length)
   db.insert(user, function(err, newUser) {
     signupMail(newUser._id, newUser.email, newUser.name, user.color)
@@ -177,6 +176,16 @@ function sendMail(email, name, subject, text) {
   };
   transporter.sendMail(message)
   console.log('Mail sent!', email, subject);
+}
+
+function randomString(len, charSet) {
+    charSet = charSet || 'BCDFGHJKLMNPQRSTWXYZ0123456789';
+    var randomString = '';
+    for (var i = 0; i <= len; i++) {
+        var randomPoz = Math.floor(Math.random() * charSet.length);
+        randomString += charSet.substring(randomPoz,randomPoz+1);
+    }
+    return randomString;
 }
 
 
