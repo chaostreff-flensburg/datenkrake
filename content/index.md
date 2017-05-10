@@ -12,8 +12,8 @@ Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt 
 
 ## Verpflegung
 Verpflegung
-Im 20€ Eintrittspreis ist das Frühstück am Samstag und Freitag ab 10:00 Uhr und das Grillen am Samstag Abend inbegriffen. 
-Darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden. 
+Im 20€ Eintrittspreis ist das Frühstück am Samstag und Sonntag ab 10:00 Uhr und das Grillen am Samstag Abend inbegriffen.
+Darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden.
 
 ## Mitbringen
 Bringt eure Hardware, Computer, Laptop, Spielzeug, Projekte usw. mit. WLAN-Kabel und Verteilersteckdose nicht vergessen! WLAN/LAN und Strom sind ausreichend vorhanden.
@@ -41,16 +41,16 @@ Außerhalb des Fahrplans gibt es auch Self-Organized-Session an denen du teilneh
 | | |
 | -- | -- |
 | 10:00 | Frühstück |
-| 13:00 - 17:00 | Vorträge |
+| 13:00 - 17:00 | Talks & Workshops (TBA) |
 | 18:00 | Grillen |
-| 20:00 | Lunge |
+| 20:00 | Lounge |
 
 
 ### Sonntag 02.07
 
 | | |
 | -- | -- |
-| 10:30 | Frühstück |
+| 10:00 | Frühstück |
 | 13:00 | Projekt Abschlussrunde |
 | 15:00 | Gemeinsames Abbauen |
 
