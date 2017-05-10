@@ -16,7 +16,7 @@ Im 20€ Eintrittspreis ist das Frühstück am Samstag und Sonntag ab 10:00 Uhr 
 Darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden.
 
 ## Mitbringen
-Bringt eure Hardware, Computer, Laptop, Spielzeug, Projekte usw. mit. WLAN-Kabel und Verteilersteckdose nicht vergessen! WLAN/LAN und Strom sind ausreichend vorhanden.
+Bringt eure Hardware, Computer, Laptop, Spielzeug, Projekte usw. mit. LAN-Kabel und Verteilersteckdose nicht vergessen! WLAN/LAN und Strom sind ausreichend vorhanden.
 
 ## Kosten
 Um die Kosten für Reinigung, Frühstück, Grillen decken zu können nehmen wir ein Eintrittsgeld in Höhe von 20€.
