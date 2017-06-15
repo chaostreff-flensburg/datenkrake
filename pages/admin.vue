@@ -3,6 +3,7 @@
     <h1>Datenkrake Admin</h1>
     <button name="" value="" @click="refresh">Refresh</button>
     <h2>Bestätigte Anmeldungen ({{ users.confirmed.length }})</h2>
+    <a :href="mailConfirmed">mail@ Bestätigte Teilnehmer</a>
 
     <table>
       <thead>
@@ -30,6 +31,7 @@
     </table>
 
     <h2>Unbestätigte Anmeldungen ({{ users.unconfirmed.length }})</h2>
+    <a :href="mailUnconfirmed">mail@ Unbestätigte Teilnehmer</a>
 
     <table>
       <thead>
@@ -85,6 +87,22 @@ export default {
         console.log(res)
         this.users.unconfirmed = res.data
       }.bind(this))
+    }
+  },
+  computed: {
+    mailConfirmed: function() {
+      let adresses = 'mailto:?BCC='
+      this.users.confirmed.forEach((user) => {
+        adresses = adresses + user.email + ', '
+      })
+      return adresses
+    },
+    mailUnconfirmed: function() {
+      let adresses = 'mailto:?BCC='
+      this.users.unconfirmed.forEach((user) => {
+        adresses = adresses + user.email + ', '
+      })
+      return adresses
     }
   }
 }
