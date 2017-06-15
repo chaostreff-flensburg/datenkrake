@@ -2,7 +2,7 @@
 
 ---
 
-Vom 30.06. bis 02.07. (Fr.-So.) im Technologiezentrum Flensburg mit dem Chaostreff Flensburg e.V. Hacken, Basteln und Prototypen. Endlich mal was fertig machen - die Weekend Hack.
+Vom 30.06. bis 02.07. (Fr.-So.) im Technologiezentrum Flensburg mit dem Chaostreff Flensburg e.V. Hacken, Basteln und Prototypen. Endlich mal was fertig machen - der weekendHACK.
 
 
 ## DAS EVENT
@@ -11,12 +11,11 @@ Sich austauschen, Mate, miteinander fachsimpeln oder «endlich mal etwas fertig 
 Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - Freitag, 17 Uhr bis Sonntag, 16 Uhr.<br>
 
 ## Verpflegung
-Verpflegung
 Im 20€ Eintrittspreis ist das Frühstück am Samstag und Sonntag ab 10:00 Uhr und das Grillen am Samstag Abend inbegriffen.
 Darüber hinaus kümmert sich jeder selbst um Verpflegung und Snacks. Getränke können mitgebracht oder vor Ort erworben werden.
 
 ## Mitbringen
-Bringt eure Hardware, Computer, Laptop, Spielzeug, Projekte usw. mit. LAN-Kabel und Verteilersteckdose nicht vergessen! WLAN/LAN und Strom sind ausreichend vorhanden.
+Bringt eure Hardware, Computer, Laptop, Spielzeug, Projekte usw. mit. WLAN-Kabel und Verteilersteckdose nicht vergessen! WLAN/LAN und Strom sind ausreichend vorhanden.
 
 ## Kosten
 Um die Kosten für Reinigung, Frühstück, Grillen decken zu können nehmen wir ein Eintrittsgeld in Höhe von 20€.
