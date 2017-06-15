@@ -19,7 +19,7 @@
       <tbody>
         <tr v-for="user in users.confirmed">
           <td>{{ user.name }}</td>
-          <td>{{ user.email }}</td>
+          <td><a :href="'mailto:' + user.email">{{ user.email }}</a></td>
           <td>{{ user.vegi }}</td>
           <td>{{ user.description }}</td>
           <td>{{ user.color }}</td>
@@ -47,7 +47,7 @@
       <tbody>
         <tr v-for="user in users.unconfirmed">
           <td>{{ user.name }}</td>
-          <td>{{ user.email }}</td>
+          <td><a :href="'mailto:' + user.email">{{ user.email }}</a></td>
           <td>{{ user.vegi }}</td>
           <td>{{ user.description }}</td>
           <td>{{ user.color }}</td>
