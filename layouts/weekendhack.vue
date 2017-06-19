@@ -89,6 +89,20 @@ article {
   max-width: 780px;
 }
 
+table {
+    border-collapse: collapse;
+    margin: 0.25em;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+  padding: 0.5em;
+}
+
 .infotitle {
   margin-top: 2em;
 }

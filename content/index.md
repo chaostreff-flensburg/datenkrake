@@ -1,4 +1,4 @@
-[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Fahrplan & Sessions](/fahrplan)
 
 ---
 
@@ -9,6 +9,9 @@ Vom 30.06. bis 02.07. (Fr.-So.) im Technologiezentrum Flensburg mit dem Chaostre
 Wir laden alle Hacker und IT-Interessierten ein in lockerer Umgebung an ihrem Projekt zu arbeiten. Bringe dein Projekt mit oder schließe Dich einem Projekt an.<br>
 Sich austauschen, Mate, miteinander fachsimpeln oder «endlich mal etwas fertig machen» sind das Motto der Weekend Hack.
 Abgesehen von einigen «Ankerpunkten» gibt es keinen festen Ablauf. Ihr könnt kommen und gehen wann ihr wollt - Freitag, 17 Uhr bis Sonntag, 16 Uhr.<br>
+
+## Talks, Workshops, Sessions
+Wir haben eine kleine Auswahl an Angeboten für euch vorbereitet. Einfach bei unserem [Fahrplan](/fahrplan) vorbeischauen und auch selber einen Workshop oder eine Session anbieten. Noch keine Idee? Wie wäre es mit Guerilla-Häkeln, Pixel-Art oder einem Tischkicker-Turnier?
 
 ## Verpflegung
 Im 20€ Eintrittspreis ist das Frühstück am Samstag und Sonntag ab 10:00 Uhr und das Grillen am Samstag Abend inbegriffen.
@@ -22,36 +25,6 @@ Um die Kosten für Reinigung, Frühstück, Grillen decken zu können nehmen wir 
 Falls 20€ für dich zu viel sind schreib uns doch eine Mail und wir werden eine Lösung finden. Über Spenden freuen wir uns.
 Die Informationen zum Bezahlen bekommt Ihr per Mail sobald ihr euch angemeldet habt.
 Wir freuen uns auf Euch.
-
-## Fahrplan
-Außerhalb des Fahrplans gibt es auch Self-Organized-Session an denen du teilnehmen kannst. Diese findest du hier: [pad.chaostreff-flensburg.de/p/wh-sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
-
-### Freitag 30.06
-
-| | |
-| -- | -- |
-| 17:00 | Aufbau. Du darfst gerne helfen. |
-| 19:00 | Willkommen und Vorstellungsrunde |
-| 20:00 | Abendessen: Wir Plündern die Flensburger Lieferdienste |
-
-
-### Samstag 01.07
-
-| | |
-| -- | -- |
-| 10:00 | Frühstück |
-| 13:00 - 17:00 | Talks & Workshops (TBA) |
-| 18:00 | Grillen |
-| 20:00 | Lounge |
-
-
-### Sonntag 02.07
-
-| | |
-| -- | -- |
-| 10:00 | Frühstück |
-| 13:00 | Projekt Abschlussrunde |
-| 15:00 | Gemeinsames Abbauen |
 
 ---
 [Impressum](https://chaostreff-flensburg.de/impressum/)

@@ -1,4 +1,4 @@
-[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Sessions](https://pad.chaostreff-flensburg.de/p/wh-sessions)
+[Infos](/#das-event) | [Anmeldung](/registration) | [Anreise & Unterkunft](/anreise-unterkunft) | [Fahrplan & Sessions](/fahrplan)
 
 ---
 ## Adresse
