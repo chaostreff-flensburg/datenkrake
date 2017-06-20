@@ -9,8 +9,8 @@ Einige der Sessions haben noch keine feste Uhrzeit und/oder Ort. Diese ergänzen
 
 ---
 
-> Fahrplan Version 0.3 "ENOSYS"  
-> Letztes Update: 20.06.17 22:11
+> Fahrplan Version 0.4 "ENOTSUP"  
+> Letztes Update: 20.06.17 22:47
 <!-- Naming-Scheme: https://namingschemes.com/UNIX_Error_Codes Choose one randomly. -->
 
 ### Freitag 30.06
@@ -19,7 +19,7 @@ Einige der Sessions haben noch keine feste Uhrzeit und/oder Ort. Diese ergänzen
 | :--: | -- | -- |
 | ab 16:00 | **Aufbau**: Mache mit uns das TZ zu einem echten Hackcenter und mach es dir gemütlich für das Wochenende. |-|
 | 19:00 | - | **Opening**: How-To weekendHACK & Best-Practices (30min.) |
-| 20:00 | **Abendessen**: Wir Plündern die Flensburger Lieferdienste |-|
+| 20:00 | **Abendessen**: Veganes Curry mit Reis |-|
 
 
 ### Samstag 01.07
